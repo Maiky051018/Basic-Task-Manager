@@ -1,0 +1,15 @@
+Explanation:
+Loading and Saving Tasks:
+
+load_tasks() loads tasks from a JSON file.
+save_tasks(tasks) saves tasks to a JSON file.
+Task Operations:
+
+add_task(tasks, task_description) adds a new task.
+list_tasks(tasks) lists all tasks with their status (done or not done).
+mark_task_done(tasks, task_index) marks a task as done.
+delete_task(tasks, task_index) deletes a task.
+Main Function:
+
+Displays a menu for the user to choose an action.
+Handles user input and calls appropriate functions based on the user's choice.
